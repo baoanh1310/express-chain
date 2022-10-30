@@ -2,32 +2,19 @@
   "name": "express-chain",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "node_1": "nodemon --watch dev -e js dev/networkNode.js 3001 http://localhost:3001",
-    "node_2": "nodemon --watch dev -e js dev/networkNode.js 3002 http://localhost:3002",
-    "node_3": "nodemon --watch dev -e js dev/networkNode.js 3003 http://localhost:3003",
-    "node_4": "nodemon --watch dev -e js dev/networkNode.js 3004 http://localhost:3004",
-    "node_5": "nodemon --watch dev -e js dev/networkNode.js 3005 http://localhost:3005"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "pow"
-  ],
-  "author": "baoanh1310",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baoanh1310/express-chain.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.23.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+  "bugs": {
+    "url": "https://github.com/baoanh1310/express-chain/issues"
   },
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "crypto-js": "^4.1.1",
-    "express": "^4.18.1",
-    "nodemon": "^2.0.19",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6",
-    "uuid": "^8.3.2"
-  }
+  "homepage": "https://github.com/baoanh1310/express-chain#readme"
 }
